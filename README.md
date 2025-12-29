@@ -1,33 +1,91 @@
-# Vulnflow
+# Vulnflow v1.0.1
 
-Vulnflow is an open-source **web vulnerability scanning framework** designed for **authorized penetration testing and security research**.
-
-It automates the process of **URL discovery, filtering active endpoints, eliminating redundant parameters**, and running **general vulnerability scans** on the resulting attack surface.  
-Vulnflow is built to reduce noise, save time, and improve efficiency during reconnaissance and scanning phases.
+Vulnflow is an open-source **web vulnerability scanning framework** designed for **authorized penetration testing**.
+It automates URL discovery, filters active endpoints, prunes redundant parameters, and performs efficient general vulnerability scans.
 
 ---
 
 ## Features
 
-- Automatic URL aggregation from multiple sources
-- Active link detection and dead URL elimination
-- Smart parameter pruning to avoid redundant testing
-- General vulnerability scanning automation
-- Clean and structured scan output
-- Designed for bug bounty hunting and penetration testing workflows
+- Automated URL collection from multiple sources  
+- Active endpoint detection (dead URLs removed)  
+- Smart parameter pruning to avoid duplicate testing  
+- General vulnerability scanning workflow  
+- Clean and organized scan output  
+- Bug bounty & pentest focused design  
 
 ---
 
 ## Screenshots
 
-You can find example outputs and usage screenshots inside the repository or by running Vulnflow on a test target.
+![Vulnflow Scan](https://ibb.co/CKJcTvWC)
+![Vulnflow Output](https://ibb.co/XxWh71yH)
 
 ---
 
-## Installation
-
 Clone the repository:
 
-```bash
-git clone https://github.com/wqyigitpw/vulnflow.git
-cd vulnflow
+    git clone https://github.com/wqyigitpw/vulnflow.git
+    cd vulnflow
+
+Run the installer:
+
+    chmod +x install.sh
+    ./install.sh
+
+Alternatively, install Python dependencies manually:
+
+    pip install -r requirements.txt
+
+### Required external tools
+
+The installer will automatically install and configure:
+
+- katana  
+- httpx  
+- nuclei  
+- gobuster  
+- curl
+- wafw00f
+
+---
+
+## Usage
+
+Run Vulnflow:
+
+    python vulnflow.py
+
+Enter the target URL when prompted:
+
+    Target URL (https://example.com):
+
+Vulnflow will automatically:
+
+- Discover URLs  
+- Filter alive endpoints  
+- Prune redundant parameters  
+- Start general vulnerability scanning  
+
+---
+
+## Output
+
+All scan results are saved under:
+
+    scan_output/
+
+---
+
+## Legal Disclaimer
+
+**Vulnflow is for authorized security testing only.**  
+Any unauthorized use is illegal. The user is solely responsible for complying with all applicable laws.  
+The developers assume **no liability** for misuse or damages.
+
+---
+
+## Author
+
+**wqyigitpw**  
+https://github.com/wqyigitpw
