@@ -18,8 +18,8 @@ It automates URL discovery, filters active endpoints, prunes redundant parameter
 
 ## Screenshots
 
-![Vulnflow Scan](https://i.ibb.co/CKJcTvWC)
-![Vulnflow Output](https://i.ibb.co/XxWh71yH)
+![Vulnflow Scan](https://i.ibb.co/v4sFKmDy/Screenshot-1.png)
+![Vulnflow Output](https://i.ibb.co/k2GR4j3Z/Screenshot-3.png)
 
 ---
 
