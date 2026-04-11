@@ -1,4 +1,4 @@
-# Vulnflow v1.0.1
+# Vulnflow v1.0.7
 
 Vulnflow is an open-source **web vulnerability scanning framework** designed for **authorized penetration testing**.
 It automates URL discovery, filters active endpoints, prunes redundant parameters, and performs efficient general vulnerability scans.
