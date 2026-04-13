@@ -48,7 +48,7 @@ It combines reconnaissance, intelligent filtering, infrastructure analysis, and 
 
 Clone the repository:
 
-git clone https://github.com/wqyigitpw/vulnflow.git  
+git clone https://github.com/wqyigitpw/vulnflow
 cd vulnflow  
 
 Run the installer:
