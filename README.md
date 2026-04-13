@@ -55,7 +55,7 @@ Run the installer:
 chmod +x install.sh  
 ./install.sh  
 
-Or install dependencies manually:
+And install requirements:
 
 pip install -r requirements.txt  
 
