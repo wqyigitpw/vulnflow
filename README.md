@@ -38,8 +38,9 @@ It combines reconnaissance, intelligent filtering, infrastructure analysis, and 
 
 ## 📸 Screenshots
 
-![Vulnflow Scan](https://i.ibb.co/v4sFKmDy/Screenshot-1.png)  
-![Vulnflow Output](https://i.ibb.co/k2GR4j3Z/Screenshot-3.png)
+![Vulnflow Scan](https://i.ibb.co/xKcXJJLw/Screenshot-2.png)  
+![Vulnflow Output](https://i.ibb.co/G4MpHtxB/Screenshot-3.png)
+![Vulnflow Output](https://i.ibb.co/0RKRHc8q/Screenshot-5.png)
 
 ---
 
